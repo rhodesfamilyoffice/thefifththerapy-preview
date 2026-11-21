@@ -86,6 +86,11 @@ a { color: inherit; }
   font-weight: 500;
   pointer-events: none;
 }
+.letterbox .site-mark {
+  letter-spacing: 0.1em;
+  white-space: nowrap;
+  min-width: 0;
+}
 .letterbox a { pointer-events: auto; text-decoration: none; }
 .letterbox a:hover { color: var(--gold); }
 .letterbox-top { top: 0; }
@@ -277,7 +282,13 @@ html.is-reduced .grain { animation: none; opacity: 0.08; }
   font-weight: 500;
   color: rgba(247, 240, 230, 0.8);
 }
-.film-kicker { top: 18%; }
+.film-kicker {
+  top: 18%;
+  letter-spacing: 0.12em;
+  max-width: min(90vw, 36rem);
+  line-height: 1.45;
+}
+
 .film-aftertitle {
   top: auto;
   bottom: 22%;
@@ -794,7 +805,10 @@ textarea { min-height: 8rem; resize: vertical; }
 @media (max-width: 520px) {
   .wrap, .nav-inner { width: min(100% - 1.4rem, var(--max)); }
   .letterbox { font-size: 0.6rem; }
+  .letterbox .site-mark { letter-spacing: 0.05em; font-size: 0.56rem; }
   .letterbox .crisis-mini { font-size: 0.62rem; letter-spacing: 0; }
+  .film-kicker { letter-spacing: 0.08em; font-size: 0.64rem; }
+  .brand-name { font-size: 1.02rem; }
 }
 
 html.is-reduced .film-line,
