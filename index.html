@@ -8,87 +8,84 @@
   <meta name="description" content="Two clearly separate offerings: licensed therapy in New Jersey from Sev Lives Counseling LLC d/b/a The Fifth Therapy, and life coaching from a separate company, available remotely anywhere.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="page-home">
-  <a class="skip-link" href="#main">Skip to content</a>
+  <a class="skip-link" href="#after">Skip to content</a>
 
-  <header class="site-header">
-    <input class="nav-check" type="checkbox" id="nav-toggle" aria-hidden="true">
-    <div class="nav-inner">
-      <a class="brand" href="index.html">
-        <span class="brand-mark" aria-hidden="true">V</span>
-        <span class="brand-text">
-          <span class="brand-name">The Fifth</span>
-          <span class="brand-sub">Two separate paths</span>
-        </span>
-      </a>
-      <label class="nav-toggle" for="nav-toggle"><span class="bars" aria-hidden="true"></span>Menu</label>
-      <ul class="nav-links">
-        <li><a href="therapy.html">Therapy in New Jersey</a></li>
-        <li><a href="coaching.html">Coaching anywhere</a></li>
-        <li><a href="privacy.html">Privacy</a></li>
-      </ul>
+  <div class="letterbox letterbox-top" aria-hidden="true">
+    <span>The Fifth</span>
+    <span class="hide-sm">A preview, not yet published</span>
+    <span class="progress"></span>
+  </div>
+  <div class="letterbox letterbox-bottom">
+    <span class="hide-sm">Scroll to begin</span>
+    <a class="crisis-mini" href="#after">If you are in crisis, call or text 988, or call 911.</a>
+  </div>
+  <div class="grain" aria-hidden="true"></div>
+  <canvas id="fx" aria-hidden="true"></canvas>
+
+  <section id="film" aria-label="A short film in words">
+    <div class="sky" aria-hidden="true">
+      <div class="sky-layer sky-night"></div>
+      <div class="sky-layer sky-indigo"></div>
+      <div class="sky-layer sky-rose"></div>
+      <div class="sky-layer sky-gold"></div>
     </div>
-  </header>
-
-  <main id="main">
-    <div class="home-hero">
-      <p class="home-kicker">The Fifth Therapy &middot; The Fifth Coaching</p>
-      <h1>Two paths. Clearly separate.</h1>
-      <p class="intro">One website, two distinct businesses. Choose licensed therapy in New Jersey, or life coaching available remotely wherever you are.</p>
+    <div class="vignette" aria-hidden="true"></div>
+    <div class="window" aria-hidden="true">
+      <div class="window-glow"></div>
+      <div class="window-frame"></div>
+    </div>
+    <div class="horizon" aria-hidden="true">
+      <div class="sun"></div>
+      <svg class="hills" viewBox="0 0 1440 400" preserveAspectRatio="none">
+        <path d="M0 400 L0 220 C180 160 280 250 460 210 C640 170 720 260 900 200 C1080 140 1240 210 1440 160 L1440 400 Z"></path>
+      </svg>
     </div>
 
-    <section class="split" aria-label="Choose therapy or coaching">
-      <article class="split-panel split-therapy">
-        <div class="split-copy">
+    <div class="film-copy">
+      <div class="film-slot" id="slot1"><p class="film-line" id="line1">You’ve been carrying it alone.</p></div>
+      <div class="film-slot" id="slot2"><p class="film-line" id="line2">Some weights were never meant for one pair of hands.</p></div>
+      <div class="film-slot" id="slot3"><p class="film-line" id="line3">Every story has a turning point.</p></div>
+      <div class="film-slot" id="slot4"><p class="film-line" id="line4">A quiet hour when the dark begins to loosen.</p></div>
+      <div class="film-slot" id="slot5"><p class="film-line" id="line5"><span>This</span> <span>could</span> <span>be</span> <span>yours.</span></p></div>
+      <div class="film-finale" id="finale">
+        <p class="film-kicker">The Fifth</p>
+        <p class="film-line" id="line6">A safe place to begin again.</p>
+        <p class="film-aftertitle">Where your healing lives.</p>
+      </div>
+    </div>
+
+    <div class="path-split">
+      <a class="path-card path-thy" href="therapy.html">
+        <div>
           <p class="eyebrow">Therapy</p>
           <h2>Therapy in New Jersey</h2>
-          <p class="tagline">A safe place to begin again.</p>
-          <p>Compassionate, evidence-based therapy for adults and children navigating anxiety, trauma, and emotional pain. In person in the Hackensack area, and by telehealth for clients physically located in New Jersey only.</p>
-          <div class="split-meta">
-            <span>
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="6.25" stroke="currentColor" stroke-width="1.25"/><path d="M8 4.5v4l2.5 1.5" stroke="currentColor" stroke-width="1.25" stroke-linecap="round"/></svg>
-              Free 15-minute consultation
-            </span>
-            <span>
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 13V5.5L8 3l5 2.5V13H3Z" stroke="currentColor" stroke-width="1.25" stroke-linejoin="round"/></svg>
-              Sevil Neslihan Coklar, LPC
-            </span>
-          </div>
+          <p class="tag">A safe place to begin again.</p>
+          <p>Compassionate, evidence-based therapy for adults and children. In person in the Hackensack area, and by telehealth for clients physically located in New Jersey only.</p>
+          <p class="entity">Provided by Sev Lives Counseling LLC d/b/a The Fifth Therapy.</p>
         </div>
-        <div class="split-foot">
-          <a class="btn btn-thy" href="therapy.html">Enter the therapy practice</a>
-          <p class="split-entity">Provided by Sev Lives Counseling LLC d/b/a The Fifth Therapy.</p>
-        </div>
-      </article>
-
-      <article class="split-panel split-coaching">
-        <div class="split-copy">
-          <p class="eyebrow coa-accent">Coaching</p>
+        <span class="go">Enter the therapy practice →</span>
+      </a>
+      <a class="path-card path-coa" href="coaching.html">
+        <div>
+          <p class="eyebrow">Coaching</p>
           <h2>Coaching, anywhere</h2>
-          <p class="tagline">Goals, habits, and what comes next.</p>
-          <p>Life coaching for direction, habits, confidence, transitions, and accountability. Sessions are available remotely, wherever you are. Coaching is not therapy and is not a substitute for mental health treatment.</p>
-          <div class="split-meta">
-            <span>
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="6.25" stroke="currentColor" stroke-width="1.25"/><path d="M5 8.2l2 2 4-4.4" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/></svg>
-              Remote sessions, no location limit
-            </span>
-            <span>
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 12.5l4.2-4.2m0 0L11 12M7.2 8.3L13 3.5" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/></svg>
-              A separate company from the therapy practice
-            </span>
-          </div>
+          <p class="tag">Goals, habits, and what comes next.</p>
+          <p>Life coaching for direction, habits, confidence, transitions, and accountability — available remotely, wherever you are. Coaching is not therapy and is not a substitute for mental health treatment.</p>
+          <p class="entity">Provided by [Coaching LLC], a separate company.</p>
         </div>
-        <div class="split-foot">
-          <a class="btn btn-coa" href="coaching.html">Enter the coaching studio</a>
-          <p class="split-entity">Provided by [Coaching LLC], a separate company.</p>
-        </div>
-      </article>
-    </section>
+        <span class="go">Enter the coaching studio →</span>
+      </a>
+    </div>
 
-    <section class="home-clarify">
+    <div class="scroll-hint" aria-hidden="true">Scroll<i></i></div>
+  </section>
+
+  <main id="after" class="after-film">
+    <section class="wrap home-clarify">
       <div>
         <h2>Shared site. Separate companies.</h2>
         <p>The Fifth Therapy and The Fifth Coaching appear together here so you can choose the right starting point. They are not the same practice, they do not share intake or records, and choosing one does not enroll you in the other.</p>
@@ -116,10 +113,14 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <p>Draft site for thefifththerapy.com &mdash; domain not purchased or published yet.</p>
+        <p>Draft site for preview only &mdash; domain not purchased or published yet.</p>
         <p><a href="privacy.html">Privacy Policy</a></p>
       </div>
     </div>
   </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js" defer></script>
+  <script src="js/story.js" defer></script>
 </body>
 </html>
